@@ -3,7 +3,6 @@ from discord.ext import commands, tasks
 from discord.ext.commands import Bot
 from discord.utils import get
 import datetime
-import os
 
 data = open('events.txt', 'r', encoding='utf-8')
 ev = data.read()
@@ -172,6 +171,5 @@ async def eventsremove(ctx, date, time):
             
         await ctx.send(embed = emb)
 
-token = os.environ.get('BOT_TOKEN')
-Bot.run(str(token))
+Bot.run(str('ODIyNDYwOTM0OTg2NzkzMDEx.YFSmbw.0ihZkXhVoU6bsrSxImLdjBx7ACM'))
 d.close()
