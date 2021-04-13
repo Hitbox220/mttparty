@@ -15,7 +15,6 @@ playsound==1.2.2
 plyer==2.0.0
 PyAutoGUI==0.9.52
 pycparser==2.20
-pygame==1.9.6
 PyGetWindow==0.0.9
 PyMsgBox==1.0.9
 PyNaCl==1.4.0
