@@ -173,4 +173,5 @@ async def eventsremove(ctx, date, time):
         await ctx.send(embed = emb)
 
 token = os.environ.get('BOT_TOKEN')
+Bot.run(str(token))
 d.close()
