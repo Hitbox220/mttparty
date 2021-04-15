@@ -19,7 +19,7 @@ async def on_ready():
 @Bot.command()
 async def check(ctx):
     global roles
-    await ctx.send(**'Всё работает!**')
+    await ctx.send('Всё работает!')
         
 token = os.environ.get('mtt_token')
 Bot.run(str(token))
