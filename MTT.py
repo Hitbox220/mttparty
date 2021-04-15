@@ -15,6 +15,11 @@ async def on_ready():
                                colour = discord.Colour.from_rgb(123, 0, 216)
                               )
     await channel.send(embed = emb)
+    
+@Bot.command()
+async def check(ctx):
+    global roles
+    await ctx.send(**'Всё работает!**')
         
 token = os.environ.get('mtt_token')
 Bot.run(str(token))
