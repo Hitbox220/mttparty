@@ -38,7 +38,7 @@ async def on_ready():
 async def eventstimer():
     global events, dates
     dt_now = str(datetime.datetime.now())
-#    print(str(dt_now)[0:19])
+    print(str(dt_now)[0:19])
     for i in dates:
         if i == str(dt_now)[0:19]:
             ch = Bot.get_channel(830453836132384798)
